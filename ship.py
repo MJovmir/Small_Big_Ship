@@ -10,7 +10,8 @@ while True:
     for x in range(1,11):
                 if x == small_ship:
                     print( "W", end="" )
-                elif x == small_ship +1 and small_ship -1:
+                    
+                elif x == small_ship +1 or x == small_ship -1:
                         print("w", end="" )
                 else:
                  print( "~", end="" )
