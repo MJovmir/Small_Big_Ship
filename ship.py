@@ -1,9 +1,6 @@
 # SHIP 
 from os import system
 
-
-
-
 small_ship = 5
 big_ship = 5
 while True:
@@ -13,8 +10,8 @@ while True:
     for x in range(1,11):
                 if x == small_ship:
                     print( "W", end="" )
-                    if small_ship == big_ship:
-                        print("wWw", end="" )
+                    if x == small_ship +1 and small_ship -1:
+                        print("w", end="" )
                 else:
                  print( "~", end="" )
                  
